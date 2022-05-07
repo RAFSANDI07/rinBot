@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "repl_python3_rinBot"
+version = "0.1.0"
+description = ""
+authors = ["RAFSANDI07 <<>>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+PyNaCl = "^1.5.0"
+ipywidgets = "^7.7.0"
+importlib-metadata = "^4.11.3"
+toml = "^0.10.2"
+cryptography = "^37.0.2"
+discord = "^1.7.3"
+Brotli = "^1.0.9"
+Cython = "^0.29.28"
+lxml = "^4.8.0"
+railroad = "^0.5.0"
+lockfile = "^0.12.2"
+Sphinx = "^4.5.0"
+attr = "^0.3.1"
+ordereddict = "^1.1"
+tornado = "^6.1"
+ipython = "^8.3.0"
+docutils = "^0.18.1"
+python-ntlm = "^1.1.0"
+Jinja2 = "^3.1.2"
+keyring = "^23.5.0"
+zipp = "^3.8.0"
+HTMLParser = "^0.0.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
